@@ -1,0 +1,1221 @@
+body {
+	font: 16px/28px cambria, serif;
+	background-image: url('../assets/retina_wood.png');
+}
+
+a.home-utama {
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #fff;
+	padding: 5px 10px;
+    margin-bottom: 20px;
+	border-radius: 3px;
+	border: 2px solid #4272d7;
+	/* margin: 0px 5px;
+	color: #4272d7; */
+}
+
+a.home-utama:hover {
+	background-color: #4272d7;
+	color: #fff;
+	border: 2px solid #fff;
+}
+
+.alert-merah{
+	font-weight: bold;
+	background: #e44e4e;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	border:1px solid #b32929;
+}
+
+.alert-hijau{
+	font-weight: bold;
+	background: #55f201;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	border:1px solid #82e44e;
+}
+
+.login-content {
+	margin: auto;
+	margin-top: 50px;
+	background-image: url('../assets/light-veneer.png');
+	padding: 15px 30px 15px;
+	border-radius: 5px;
+	width: 500px;
+	border: 4px solid #333;
+}
+
+.login-logo {
+	text-align: center;
+	margin: 15px auto;
+}
+figcaption {
+	font-size: 9px;
+}
+
+img {
+	border-radius: 5px;
+}
+
+.social-login-content {
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
+	padding: 20px 0px;
+}
+
+tr .label {
+	width: 160px;
+}
+
+form table {
+	margin: auto;
+}
+
+.login-content .footer {
+	text-align: center;
+	border-color: #333;
+}
+
+.textarea .button {
+	width: 100%;
+	padding: 0.8em;
+	margin-top: 0.9em;
+	background-color: #4272d7;
+	color: #FFFFFF;
+	cursor: pointer;
+	border: 1px solid #4272d7;
+	border-radius: 5px;
+}
+
+.textarea .button:hover {
+	animation: pulsatebutton 9999s;
+	ease-in-out;
+}
+
+@keyframes pulsatebutton {
+	0% {
+		box-shadow:
+			0 0 25px #6d9dff,
+			0 0 25px #6d9dff;
+	}
+}
+
+.footer a {
+	text-decoration: none;
+	color: salmon;
+	padding: 3px;
+}
+
+.footer a:hover {
+	background-color: #4272d7;
+	border-radius: 5px;
+	color: white;
+}
+
+.footer a.none {
+	text-decoration: none;
+	color: salmon;
+	padding: 3px;
+}
+
+.footer a.none:hover {
+	background-color: #4272d7;
+	border-radius: 5px;
+	color: white;
+}
+
+.textarea .button:hover {
+	font-weight: bold;
+}
+
+
+
+
+/* CSS Home Menu */
+
+.container {
+	margin: auto;
+	width: 100%;
+	background-image: url('../assets/light-veneer.png');
+	padding: 10px;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.header {
+	background-color: #333;
+	border-radius: 5px;
+	padding: 11px 10px;
+	box-sizing: border-box;
+	font: 16px/28px cambria, serif;
+	position: relative;
+}
+
+.header a {
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #fff;
+	padding: 5px 10px;
+    margin-right: 10px;
+	border-radius: 3px;
+	border: 2px solid #fff;
+	/* margin: 0px 5px;
+	color: #4272d7; */
+}
+
+.header a:hover {
+	background-color: #4272d7;
+	color: #fff;
+}
+
+.header a.aktif {
+	background-color: #4272d7;
+	color: #fff;
+	border: 2px solid #4272d7;
+}
+
+.header a.aktif:hover {
+	background-color: #4272d7;
+	color: #fff;
+	border: 2px solid #4272d7;
+}
+
+.header a.out {
+	position: absolute;
+    right: 0px;
+    bottom: 9px;
+    padding-top: 1.5px;
+    padding-bottom: 1px;
+	background-color: #dc3545;
+	color: #fff;
+	border: 2px solid #fff;
+}
+
+.header a.out:hover {
+	background-color: #f31228;
+	border: 2px solid #f31228;
+}
+
+.header a.out-data {
+	position: absolute;
+    right: 7px;
+    bottom: 9px;
+    padding-top: 1.5px;
+    padding-bottom: 1px;
+	background-color: #dc3545;
+	color: #fff;
+	border: 2px solid #fff;
+}
+
+.header a.out-data:hover {
+	background-color: #f31228;
+	border: 2px solid #f31228;
+}
+
+.header a.btn-hasil {
+	pointer-events: none;
+	color: rgb(94, 92, 92);
+	background-color: rgb(51, 51, 51);
+	border: 2px solid rgb(94, 92, 92);
+}
+
+.header a.aktif-hasil {
+	pointer-events: none;
+	background-color: #4272d7;
+	color: #fff;
+	border: 2px solid #4272d7;
+}
+
+.header a.ubah_pw {
+    position: absolute;
+    right: 103px;
+    bottom: 9px;
+    padding-top: 1.5px;
+    padding-bottom: 1px;
+}
+
+.menu {
+	background-color: cadetblue;
+    margin-top: 70px;
+    border-radius: 3px;
+    padding: 10px 10px 10px;
+    height: 170px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 30px;
+    border: 2px solid #333;
+    line-height: 170px;
+    border-radius: 9px;
+    text-align: center;
+    padding: 75px 30px;
+    font-weight: bold;
+}
+
+.menu .stock {
+	background-color: #fff;
+	color: #4272d7;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 0px 10px;
+	padding: 65px 13px;
+	border: 3px solid #333;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.menu .stock:hover {
+	animation: pulsatestock 9999s;
+	ease-in-out;
+}
+
+@keyframes pulsatestock {
+	0% {
+		box-shadow:
+			0 0 25px #4272d7,
+			0 0 25px #4272d7;
+	}
+}
+
+.menu .masuk {
+	background-color: #fff;
+	color: #4272d7;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 0px 10px;
+	padding: 65px 29px;
+	border: 3px solid #333;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.menu .masuk:hover {
+	animation: pulsatemasuk 9999s;
+	ease-in-out;
+}
+
+@keyframes pulsatemasuk {
+	0% {
+		box-shadow:
+			0 0 25px #4272d7,
+			0 0 25px #4272d7;
+	}
+}
+
+.menu .keluar {
+	background-color: #fff;
+	color: #4272d7;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 0px 10px;
+	padding: 65px 22px;
+	border: 3px solid #333;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.menu .keluar:hover {
+	animation: pulsatekeluar 9999s;
+	ease-in-out;
+}
+
+@keyframes pulsatekeluar {
+	0% {
+		box-shadow:
+			0 0 25px #4272d7,
+			0 0 25px #4272d7;
+	}
+}
+
+
+.menu .prediksi {
+	background-color: #fff;
+	color: #4272d7;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 0px 10px;
+	padding: 65px 16px;
+	border: 3px solid #333;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.menu .prediksi:hover {
+	animation: pulsateprediksi 9999s;
+	ease-in-out;
+}
+
+@keyframes pulsateprediksi {
+	0% {
+		box-shadow:
+			0 0 25px #4272d7,
+			0 0 25px #4272d7;
+	}
+}
+
+.menu .data-supplier {
+	background-color: #fff;
+	color: #4272d7;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 0px 10px;
+	padding: 65px 30px;
+	border: 3px solid #333;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.menu .data-supplier:hover {
+	animation: pulsatedatasupplier 9999s;
+	ease-in-out;
+}
+
+@keyframes pulsatedatasupplier {
+	0% {
+		box-shadow:
+			0 0 25px #4272d7,
+			0 0 25px #4272d7;
+	}
+}
+
+.menu .konfirmasi {
+	background-color: #fff;
+	color: #4272d7;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 0px 10px;
+	padding: 65px 6px;
+	border: 3px solid #333;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.menu .konfirmasi:hover {
+	animation: pulsatedatasupplier 9999s;
+	ease-in-out;
+}
+
+@keyframes pulsatekonfirmasi {
+	0% {
+		box-shadow:
+			0 0 25px #4272d7,
+			0 0 25px #4272d7;
+	}
+}
+
+.footermenu {
+	margin-top: 70px;
+	background-color: #333;
+	border-radius: 5px;
+}
+
+.footerdalam .copy {
+	font-weight: bold;
+	color: #eaeaea;
+	text-align: center;
+	font-size: 16px;
+	padding: 10px;
+}
+
+
+
+
+/* CSS Tambah Data */
+
+.header1 {
+	background-color: #333;
+	border-radius: 5px;
+	padding: 11px 10px;
+	box-sizing: border-box;
+	font: 16px/28px cambria, serif;
+	margin-bottom: 60px;
+}
+
+.header1 a {
+	text-decoration: none;
+	border: 2px solid #fff;
+	background-color: #fff;
+	padding: 5px 10px;
+	border-radius: 3px;
+	margin: 0px 5px;
+	font-weight: bold;
+	color: #4272d7;
+}
+
+.header1 a:hover {
+	background-color: #4272d7;
+	border: 2px solid white;
+	color: white;
+}
+
+.tambah {
+	margin: 10px;
+}
+
+.tambah table.tambahdata {
+	margin-left: 0px;
+}
+
+.tambah .labeldata {
+	width: 180px;
+}
+
+.data {
+	margin-top: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.data .history {
+	width: 100%;
+	border: 2px solid #333;
+	border-radius: 5px;
+}
+
+.data .history tr {
+	color: #333;
+	text-align: center;
+}
+
+.data .history tr.data:nth-child(2n) {
+	background-color: rgb(221, 221, 221);
+}
+
+.data .history tr.data:hover {
+	background-color: rgb(253, 255, 112);
+}
+
+.data .history .baris1 {
+	background-color: #333;
+	color: #eaeaea;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.data .history .kolomhistory1 {
+	width: 7%;
+}
+
+.data .history .kolomhistory2 {
+	width: 20%;
+}
+
+.data .history .kolomhistory3 {
+	width: 20%;
+}
+
+.data .history .kolomhistory4 {
+	width: 33%;
+}
+
+.data .history .kolomhistory5 {
+	width: 20%;
+}
+
+.data .history .kolomhistory5 a {
+	margin: 2px 10px;
+	font: 16px poppins, sans-serif;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.data .history .kolomhistory5 .editdata {
+	border-radius: 5px;
+	background-color: #ffc107;
+	padding: 5px 15px;
+	color: #333;
+}
+
+.data .history .kolomhistory5 .editdata:hover {
+	animation: pulsateedit 9999s;
+	ease-in-out;
+}
+
+@keyframes pulsateedit {
+	0% {
+		box-shadow:
+			0 0 25px #ffc107,
+			0 0 25px #ffc107;
+	}
+}
+
+.data .history .kolomhistory5 .hapusdata {
+	border-radius: 5px;
+	background-color: #dc3545;
+	padding: 5px 15px;
+	color: #fff;
+}
+
+.data .history .kolomhistory5 .hapusdata:hover {
+	animation: pulsatedel 9999s;
+	ease-in-out;
+}
+
+@keyframes pulsatedel {
+	0% {
+		box-shadow:
+			0 0 25px #dc3545,
+			0 0 25px #dc3545;
+	}
+}
+
+
+.buatperkiraan {
+	margin: 10px;
+}
+
+.buatperkiraan .tombolbuatperkiraan {
+	border-radius: 5px;
+	background-color: #dc3545;
+	padding: 5px 15px;
+	color: #fff;
+	text-decoration: none;
+	float: right;
+}
+
+.buatperkiraan .tombolbuatperkiraan:hover {
+	background-color: #4272d7;
+	border: 0px solid #4272d7;
+}
+
+/* CSS Edit */
+
+.edit {
+	margin: 10px;
+}
+
+.edit table.editdata {
+	margin-left: 0px;
+}
+
+.edit .labeldata {
+	width: 180px;
+}
+
+/* CSS Frekuensi */
+
+.prediksi {
+	margin: 10px;
+}
+
+.perhitungan {
+	width: 100%;
+	border: 2px solid #333;
+	border-radius: 5px;
+}
+
+.prediksi .perhitungan tr.data:nth-child(2n) {
+	background-color: rgb(221, 221, 221);
+}
+
+.prediksi .perhitungan tr.data:hover {
+	background-color: rgb(253, 255, 112);
+}
+
+.prediksi .perhitungan .baris1 {
+	background-color: #333;
+	color: #eaeaea;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.prediksi .perhitungan tr {
+	color: #333;
+	text-align: center;
+}
+
+input.jml_perkiraan {
+	margin-left: 10px;
+	width: 82%;
+}
+
+input.tombolprediksi {
+	font-family: Cambria, serif;
+	font-size: 16px;
+	margin-left: 5px;
+	margin-right: 10px;
+	padding: 5px 35px 5px 35px;
+	border: 1px solid #4272d7;
+	border-radius: 5px;
+	background-color: #4272d7;
+	color: #fff;
+	text-decoration: none;
+}
+
+input.tombolprediksi:hover {
+	background-color: #dc3545;
+	border: 1px solid #dc3545;
+}
+
+
+/* CSS Hasil */
+
+.hasil {
+	margin: 10px;
+}
+
+.simulasi {
+	width: 100%;
+	border: 2px solid #333;
+	border-radius: 5px;
+}
+
+.hasil .simulasi .baris1 {
+	background-color: #333;
+	color: #eaeaea;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.hasil .simulasi tr {
+	color: #333;
+	text-align: center;
+}
+
+.hasil .simulasi tr.data:nth-child(2n) {
+	background-color: rgb(221, 221, 221);
+}
+
+.hasil .simulasi tr.data:hover {
+	background-color: rgb(253, 255, 112);
+}
+
+.hasil .simulasi tr .kolomhasil1 {
+	width: 10%;
+}
+
+.hasil .simulasi tr .kolomhasil2 {
+	width: 20%;
+}
+
+.hasil .simulasi tr .kolomhasil3 {
+	width: 23%;
+}
+
+.hasil .simulasi tr .kolomhasil4 {
+	width: 23%;
+}
+
+.hasil .simulasi tr .kolomhasil5 {
+	width: 24%;
+}
+
+
+/* CSS Ubah Password */
+
+.ubahpass {
+	width: 700px;
+	margin-top: 50px;
+	border: 4px solid #333;
+}
+
+.simpanperubahan {
+	font-family: Cambria, serif;
+	margin-top: 20px;
+	border-radius: 5px;
+	border: 1px solid #4272d7;
+	background-color: #4272d7;
+	padding: 5px 15px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.simpanperubahan:hover {
+	animation: pulsatehapus 9999s;
+	ease-in-out;
+}
+
+@keyframes pulsatehapus {
+	0% {
+		box-shadow:
+			0 0 25px #4272d7,
+			0 0 25px #4272d7;
+	}
+}
+
+
+/* CSS Bahan_Masuk */
+
+div.container div.masuk {
+	font-weight: bold;
+	color: #fff;
+}
+
+.data .masuk {
+	table-layout:fixed
+}
+
+.data .masuk td {
+	word-wrap: break-word;
+}
+
+.data .masuk .kolomhistory1 {
+	width: 13%;
+}
+
+.data .masuk .kolomhistory2 {
+	width: 12%;
+}
+
+.data .masuk .kolomhistory3 {
+	width: 12%;
+}
+
+.data .masuk .kolomhistory4 {
+	width: 10%;
+}
+
+.data .masuk .kolomhistory5 {
+	width: 13%;
+}
+
+.data .masuk .kolomhistory6 {
+	width: 13%;
+
+}
+.data .masuk .kolomhistory7 {
+	width: 15%;
+}
+
+.data .masuk .kolomhistory8 {
+	width: 12%;
+}
+
+.data .masuk .kolomhistory6 a {
+	margin: 2px 10px;
+	font: 16px poppins, sans-serif;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.data .masuk .kolomhistory6 .editdata {
+	border-radius: 5px;
+	background-color: #ffc107;
+	padding: 5px 15px;
+	color: #333;
+}
+
+.data .masuk .kolomhistory6 .editdata:hover {
+	animation: pulsateedit 9999s;
+	ease-in-out;
+}
+
+@keyframes pulsateedit {
+	0% {
+		box-shadow:
+			0 0 25px #ffc107,
+			0 0 25px #ffc107;
+	}
+}
+
+.data .masuk .kolomhistory6 .hapusdata {
+	border-radius: 5px;
+	background-color: #dc3545;
+	padding: 5px 15px;
+	color: #fff;
+}
+
+.data .masuk .kolomhistory6 .hapusdata:hover {
+	animation: pulsatedel 9999s;
+	ease-in-out;
+}
+
+@keyframes pulsatedel {
+	0% {
+		box-shadow:
+			0 0 25px #dc3545,
+			0 0 25px #dc3545;
+	}
+}
+
+.data .masuk .kolomhistory7 a {
+	margin: 2px 10px;
+	font: 16px poppins, sans-serif;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.data .masuk .kolomhistory7 .editdata {
+	border-radius: 5px;
+	background-color: #ffc107;
+	padding: 5px 15px;
+	color: #333;
+}
+
+.data .masuk .kolomhistory7 .editdata:hover {
+	animation: pulsateedit 9999s;
+	ease-in-out;
+}
+
+@keyframes pulsateedit {
+	0% {
+		box-shadow:
+			0 0 25px #ffc107,
+			0 0 25px #ffc107;
+	}
+}
+
+.data .masuk .kolomhistory7 .hapusdata {
+	border-radius: 5px;
+	background-color: #dc3545;
+	padding: 5px 15px;
+	color: #fff;
+}
+
+.data .masuk .kolomhistory7 .hapusdata:hover {
+	animation: pulsatedel 9999s;
+	ease-in-out;
+}
+
+@keyframes pulsatedel {
+	0% {
+		box-shadow:
+			0 0 25px #dc3545,
+			0 0 25px #dc3545;
+	}
+}
+
+.data .masuk tr.data:nth-child(2n) {
+	background-color: rgb(221, 221, 221);
+}
+
+.data .masuk tr.data:hover {
+	background-color: rgb(253, 255, 112);
+}
+
+
+/* CSS Stock */
+
+div.container div.stock {
+	font-weight: bold;
+	color: #fff;
+}
+
+.data .stock {
+	table-layout:fixed
+}
+
+.data .stock td {
+	word-wrap: break-word;
+}
+
+.data .stock .kolomhistory1 {
+	width: 15%;
+}
+
+.data .stock .kolomhistory2 {
+	width: 45%;
+}
+
+.data .stock .kolomhistory3 {
+	width: 40%;
+}
+
+
+
+
+/* CSS Bahan_Keluar */
+
+div.container div.keluar {
+	font-weight: bold;
+	color: #fff;
+}
+
+.data .keluar {
+	table-layout:fixed
+}
+
+.data .keluar td {
+	word-wrap: break-word;
+}
+
+.data .keluar .kolomhistory1 {
+	width: 13%;
+}
+
+.data .keluar .kolomhistory2 {
+	width: 17%;
+}
+
+.data .keluar .kolomhistory3 {
+	width: 20%;
+}
+
+.data .keluar .kolomhistory4 {
+	width: 30%;
+}
+
+.data .keluar .kolomhistory5 {
+	width: 20%;
+}
+
+.data .keluar .kolomhistory5 a {
+	margin: 2px 10px;
+	font: 16px poppins, sans-serif;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.data .keluar .kolomhistory5 .editdata {
+	border-radius: 5px;
+	background-color: #ffc107;
+	padding: 5px 15px;
+	color: #333;
+}
+
+.data .keluar .kolomhistory5 .editdata:hover {
+	animation: pulsateedit 9999s;
+	ease-in-out;
+}
+
+@keyframes pulsateedit {
+	0% {
+		box-shadow:
+			0 0 25px #ffc107,
+			0 0 25px #ffc107;
+	}
+}
+
+.data .keluar .kolomhistory5 .hapusdata {
+	border-radius: 5px;
+	background-color: #dc3545;
+	padding: 5px 15px;
+	color: #fff;
+}
+
+.data .keluar .kolomhistory5 .hapusdata:hover {
+	animation: pulsatedel 9999s;
+	ease-in-out;
+}
+
+@keyframes pulsatedel {
+	0% {
+		box-shadow:
+			0 0 25px #dc3545,
+			0 0 25px #dc3545;
+	}
+}
+
+.data .keluar tr.data:nth-child(2n) {
+	background-color: rgb(221, 221, 221);
+}
+
+.data .keluar tr.data:hover {
+	background-color: rgb(253, 255, 112);
+}
+
+
+
+/* CSS Data Supplier */
+
+div.container div.keluar {
+	font-weight: bold;
+	color: #fff;
+}
+
+.data .data_supplier {
+	table-layout:fixed
+}
+
+.data .data_supplier td {
+	word-wrap: break-word;
+}
+
+.data .data_supplier .kolomhistory1 {
+	width: 10%;
+}
+
+.data .data_supplier .kolomhistory2 {
+	width: 25%;
+}
+
+.data .data_supplier .kolomhistory3 {
+	width: 25%;
+}
+
+.data .data_supplier .kolomhistory4 {
+	width: 25%;
+}
+
+.data .data_supplier .kolomhistory5 {
+	width: 15%;
+}
+
+.data .data_supplier .kolomhistory5 a {
+	margin: 2px 10px;
+	font: 16px poppins, sans-serif;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.data .data_supplier .kolomhistory5 .editdata {
+	border-radius: 5px;
+	background-color: #ffc107;
+	padding: 5px 15px;
+	color: #333;
+}
+
+.data .data_supplier .kolomhistory5 .editdata:hover {
+	animation: pulsateedit 9999s;
+	ease-in-out;
+}
+
+@keyframes pulsateedit {
+	0% {
+		box-shadow:
+			0 0 25px #ffc107,
+			0 0 25px #ffc107;
+	}
+}
+
+.data .data_supplier .kolomhistory5 .hapusdata {
+	border-radius: 5px;
+	background-color: #dc3545;
+	padding: 5px 15px;
+	color: #fff;
+}
+
+.data .data_supplier .kolomhistory5 .hapusdata:hover {
+	animation: pulsatedel 9999s;
+	ease-in-out;
+}
+
+@keyframes pulsatedel {
+	0% {
+		box-shadow:
+			0 0 25px #dc3545,
+			0 0 25px #dc3545;
+	}
+}
+
+.data .data_supplier tr.data:nth-child(2n) {
+	background-color: rgb(221, 221, 221);
+}
+
+.data .data_supplier tr.data:hover {
+	background-color: rgb(253, 255, 112);
+}
+
+
+/* CSS Konfirmasi */
+
+div.container div.konfirmasi {
+	font-weight: bold;
+	color: #fff;
+}
+
+.data .konfirmasi {
+	table-layout:fixed
+}
+
+.data .konfirmasi td {
+	word-wrap: break-word;
+}
+
+.data .konfirmasi .kolomhistory1 {
+	width: 8%;
+}
+
+.data .konfirmasi .kolomhistory2 {
+	width: 9%;
+}
+
+.data .konfirmasi .kolomhistory3 {
+	width: 9%;
+}
+
+.data .konfirmasi .kolomhistory4 {
+	width: 7%;
+}
+
+.data .konfirmasi .kolomhistory5 {
+	width: 10%;
+}
+
+.data .konfirmasi .kolomhistory6 {
+	width: 30%;
+
+}
+.data .konfirmasi .kolomhistory7 {
+	width: 17%;
+}
+
+.data .konfirmasi .kolomhistory8 {
+	width: 10%;
+}
+
+.data .konfirmasi .kolomhistory7 a {
+	margin: 2px 5px;
+	font: 16px poppins, sans-serif;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.data .konfirmasi .kolomhistory7 .terima {
+	border-radius: 5px;
+	background-color: #2dc000;
+	padding: 5px 15px;
+	color: #fff;
+}
+
+.data .konfirmasi .kolomhistory7 .terima:hover {
+	animation: pulsateterima 9999s;
+	ease-in-out;
+}
+
+@keyframes pulsateterima {
+	0% {
+		box-shadow:
+			0 0 25px #2dc000,
+			0 0 25px #2dc000;
+	}
+}
+
+.data .konfirmasi .kolomhistory7 .tolak {
+	border-radius: 5px;
+	background-color: #dc3545;
+	padding: 5px 15px;
+	color: #fff;
+}
+
+.data .konfirmasi .kolomhistory7 .tolak:hover {
+	animation: pulsatetolak 9999s;
+	ease-in-out;
+}
+
+@keyframes pulsatetolak {
+	0% {
+		box-shadow:
+			0 0 25px #dc3545,
+			0 0 25px #dc3545;
+	}
+}
+
+.data .konfirmasi tr.data:nth-child(2n) {
+	background-color: rgb(221, 221, 221);
+}
+
+.data .konfirmasi tr.data:hover {
+	background-color: rgb(253, 255, 112);
+}
